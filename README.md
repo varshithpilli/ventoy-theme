@@ -27,7 +27,8 @@ You could tweak everything on the ventoy page by replacing the .png files. I use
 ## ventoy.json
 * This file's main purpose is to give an alias for the images on your USB.
 <pre> <code>
-```"menu_alias": [
+```
+"menu_alias": [
         {
             "image": "/EndeavourOS_Mercury-2025.02.08.iso",
             "alias": "Endeavour"
@@ -44,7 +45,8 @@ You could tweak everything on the ventoy page by replacing the .png files. I use
             "image": "/ubuntu-24.04-desktop-amd64.iso",
             "alias": "Ubuntu"
         }
-    ]```
+    ]
+```
 </code> </pre>
 * you could modify the above mentioned block of code from *ventoy.json* to fit your needs and accessibility.
 * Note that in the image key, the file name should be preceeded by '/' and should also include the file extension.
